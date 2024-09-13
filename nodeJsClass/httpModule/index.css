@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+nav {
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+  gap: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+nav a {
+  color: crimson;
+  text-decoration: none;
+}
+.homePage,
+.aboutPage {
+  width: 90%;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 50px;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+.homePage h1,
+.aboutPage h1,
+.contactPage h1 {
+  padding-bottom: 20px;
+  color: crimson;
+  font-style: italic;
+  font-size: x-large;
+  font-size: 2rem;
+}
+form {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  box-sizing: border-box;
+ 
+}
+form label {
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+form input,
+form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form button {
+  border: none;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+textarea {
+  height: 100px;
+  resize: none;
+  width: 50%;
+  padding: auto;
+  color: crimson;
+}
+.contactPage h1 {
+  width: 40%;
+  padding: 30px 50px 0px;
+  text-align: center;
+}
+#pagenotfound{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: crimson;
+  padding-top: 80px;
+  
+}
