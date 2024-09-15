@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: darksalmon;
+    color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.mainDiv h1:nth-of-type(1){
+    padding-bottom: 20px;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: inline;
+    margin: 10px;
+    
+}
+form input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+form button{
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+}
+button{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+}
+.addData{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.addData h1{
+    width: 100%;
+    
+}
+.addData button{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.addData h1, .addData button{
+    flex: 1;
+}
+.completedData{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
